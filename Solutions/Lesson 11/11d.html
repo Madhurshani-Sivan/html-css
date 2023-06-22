@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 11d</title>
+    <style>
+      body{
+        vertical-align: middle;
+      }
+
+      .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+      }
+
+      img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+        display: block;
+      }
+
+      button{
+        background-color: rgb(104, 104, 211);
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 16px;
+        padding-left: 16px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        border: none;
+      }
+
+      .profile{
+        width: 200px;
+        vertical-align: top;
+        margin-right: 15px;
+      }
+
+      .profile-pic{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 12px;
+      }
+
+      .name{
+        font-weight: bold;
+        margin-bottom: 5px;
+        margin-left: 8px;
+      }
+
+      .friends-row{
+        display: grid;
+        grid-template-columns: 30px 1fr;
+        align-items: center;
+        margin-left: 8px;
+        margin-bottom: 10px;
+      }
+
+      .friends-pic{
+        height: 28px;
+        width: 28px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 14px;
+        margin-right: 4px;
+      }
+
+      .friends{
+        color: gray;
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="grid">
+      <div class="profile">
+        <img class="profile-pic" src="/Solutions/Lesson 7/images.jpeg">
+        <p class="name">Oliver</p>
+        <div class="friends-row">
+          <img class="friends-pic" src="/Solutions/Lesson 10/images.jpeg" >
+          <p class="friends">2 mutual friends</p>
+        </div>
+        <button>Add Friend</button>
+      </div>
+  
+      <div class="profile">
+        <img class="profile-pic" src="/Solutions/Lesson 9/Untitled.jpeg">
+        <p class="name">Mimi</p>
+        <div class="friends-row">
+          <img class="friends-pic" src="/Solutions/Lesson 10/images.jpeg" >
+          <p class="friends">3 mutual friends</p>
+        </div>      <button>Add Friend</button>
+      </div>
+  
+      <div class="profile">
+        <img class="profile-pic" src="/Solutions/Lesson 9/dog.jpeg">
+        <p class="name">Rex</p>
+        <div class="friends-row">
+          <img class="friends-pic" src="/Solutions/Lesson 10/images.jpeg" >
+          <p class="friends">4 mutual friends</p>
+        </div>      <button>Add Friend</button>
+      </div>
+    </div>
+
+  </body>
+</html>
