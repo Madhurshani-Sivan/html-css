@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 12g</title>
+    <style>
+      body{
+        vertical-align: middle;
+      }
+
+      p{
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .flex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+
+      img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+        display: block;
+        margin-right: 30px;
+      }
+
+      button{
+        background-color: rgb(104, 104, 211);
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 16px;
+        padding-left: 16px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        border: none;
+      }
+
+      .profile-pic{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        object-position: center;
+        margin-left: 15px;
+        border-radius: 25px;
+      }
+
+      .name{
+        font-weight: bold;
+        margin-bottom: 3px;
+      }
+
+      .flex-row{
+        width: 200px;
+      }
+
+      .tag, .popular{
+        color: gray;
+        margin-bottom: 3px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="flex">
+        <img class="profile-pic" src="/Solutions/Lesson 7/images.jpeg">
+      <div class="flex-row">
+        <p class="name">oliver</p>
+        <p class="tag">the cat</p>
+        <p class="popular">Popular</p>
+      </div>
+      <button>Follow</button>
+    </div>
+  
+    <div class="flex">
+      <img class="profile-pic" src="/Solutions/Lesson 9/Untitled.jpeg">
+      <div class="flex-row">
+        <p class="name">Mimi</p>
+        <p class="tag">Sleepy cat</p>
+        <p class="popular">Popular</p>
+      </div>
+      <button>Follow</button>
+    </div>
+
+    <div class="flex">
+      <img class="profile-pic" src="/Solutions/Lesson 9/dog.jpeg">
+      <div class="flex-row">
+        <p class="name">Rex</p>
+        <p class="tag">Happy Bulldog</p>
+        <p class="popular">Popular</p>
+      </div>
+    <button>Follow</button>
+    </div>
+
+  </body>
+</html>

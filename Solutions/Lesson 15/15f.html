@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>Exercise 15a</title>
+    <style>
+      body{
+        height: 3000px;
+      }
+
+      .product{
+        position: relative;
+        display: inline-block;
+      }
+
+      .discount{
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        background-color: black;
+        color: white;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-right: 4px;
+        padding-left: 4px;
+      }
+
+      .overlay{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      button{
+        background-color: white;
+        border-width: 1px;
+        border: solid;
+        border-color: black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="product">
+      <img src="Untitled.jpeg">
+      <div class="discount">20% OFF</div>
+      <div class="overlay">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>

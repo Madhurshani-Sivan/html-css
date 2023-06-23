@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 14e</title>
+    <style>
+      body{
+        height: 3000px;
+      }
+
+      .sender-pic{
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+        object-position: center;
+        margin-left: 50px;
+        margin-right: 20px;
+      }
+
+      .facebook{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      p{
+        flex: 1; 
+        font-weight: bold;
+      }
+
+      .add-btn{
+        background-color: blue;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-right: 20px;
+        border: none;
+        border-radius: 10px;
+      }
+
+      .msg-btn{
+        background-color: lightgray;
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-right: 20px;
+        border: none;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="facebook">
+        <img class="sender-pic" src="/Solutions/Lesson 7/images.jpeg">
+        <p>Oliver cat</p>
+        <button class="add-btn">Add Friend</button>
+        <button class="msg-btn">Message</button>
+      </div>
+    </div>
+  </body>
+</html>
